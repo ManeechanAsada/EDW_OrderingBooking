@@ -3660,7 +3660,7 @@ namespace Avantik.Web.Service.Model.COM
 
                             if (isFindRQST == false)
                             {
-                                // do NOT found RQST
+                                // do NOT found RQST then create the new one
                                 foreach(var rqst in rqstMappings)
                                 {
                                     List<entity.Mapping> RqRQSTOneByOne = new List<Mapping>();
@@ -3890,9 +3890,9 @@ namespace Avantik.Web.Service.Model.COM
                             IsRQSTSeat = true;
 
                             //for test
-                            entity.Booking b = new Booking();
-                            List<entity.PassengerService> servicesTmp = new List<PassengerService>();
-                            b.Services = servicesTmp.FillBooking(rsService);
+                            //entity.Booking b = new Booking();
+                            //List<entity.PassengerService> servicesTmp = new List<PassengerService>();
+                            //b.Services = servicesTmp.FillBooking(rsService);
                         }
 
 
