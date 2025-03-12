@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8E2C2CA-BFAA-453A-B786-A04AA8D80F90}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Avantik.Web.Service</RootNamespace>
+    <AssemblyName>Avantik.Web.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAuthenticationService.cs" />
+    <Compile Include="clsAvailabilityService.cs" />
+    <Compile Include="clsBookingService.cs" />
+    <Compile Include="clsClientService.cs" />
+    <Compile Include="clsOrderingBookingService.cs" />
+    <Compile Include="clsSystemService.cs" />
+    <Compile Include="Extension\Client\clsMessageToEntity.cs" />
+    <Compile Include="Extension\clsAgentEntityToMessage .cs" />
+    <Compile Include="Extension\clsAgentMessageToEntity.cs" />
+    <Compile Include="Extension\clsAvailabilityExtension.cs" />
+    <Compile Include="Extension\clsBookingEntityToMessage.cs" />
+    <Compile Include="Extension\clsModifyBookingMessageToEntity.cs" />
+    <Compile Include="Extension\clsFlightMessageToEntity.cs" />
+    <Compile Include="Extension\clsMessageToEntityBooking.cs" />
+    <Compile Include="Extension\clsRouteExtension.cs" />
+    <Compile Include="Extension\clsSeatMapEntityToMessage.cs" />
+    <Compile Include="Extension\clsVoucherEntityToMessage.cs" />
+    <Compile Include="Extension\clsVoucherMessageToEntity.cs" />
+    <Compile Include="Extension\Fee\clsFeeEntityToMessage .cs" />
+    <Compile Include="Extension\Fee\clsFeeMessageToEntity.cs" />
+    <Compile Include="Extension\System\clsSystemEntityToMessage .cs" />
+    <Compile Include="Extension\Validation\clsRequestValidation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Avantik.Web.Service.Contracts\Avantik.Web.Service.Contracts.csproj">
+      <Project>{c627ae1f-43b9-46f1-8b4b-a8ded37e4138}</Project>
+      <Name>Avantik.Web.Service.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Avantik.Web.Service.Entity\Avantik.Web.Service.Entity.csproj">
+      <Project>{45ae41b7-e3b1-484e-954e-5b97fa157833}</Project>
+      <Name>Avantik.Web.Service.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Avantik.Web.Service.Exception\Avantik.Web.Service.Exception.csproj">
+      <Project>{4a0a82e7-3071-4f8d-8c7b-f9e447b5817c}</Project>
+      <Name>Avantik.Web.Service.Exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Avantik.Web.Service.Helpers\Avantik.Web.Service.Helpers.csproj">
+      <Project>{fef72c08-fc6a-4492-abf1-b237d0d066d9}</Project>
+      <Name>Avantik.Web.Service.Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Avantik.Web.Service.Infrastructrue\Avantik.Web.Service.Infrastructrue.csproj">
+      <Project>{8d80bce4-5fec-4c54-95ab-6b4e108b3814}</Project>
+      <Name>Avantik.Web.Service.Infrastructrue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Avantik.Web.Service.Message\Avantik.Web.Service.Message.csproj">
+      <Project>{501243d1-dea9-4f3a-b388-41502059df50}</Project>
+      <Name>Avantik.Web.Service.Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Avantik.Web.Service.Model.Contract\Avantik.Web.Service.Model.Contract.csproj">
+      <Project>{1a5e11ed-39bd-42f3-abf0-fdeed24e4d28}</Project>
+      <Name>Avantik.Web.Service.Model.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Avantik.Web.Service.Model.Factory\Avantik.Web.Service.Model.Factory.csproj">
+      <Project>{ffd0bf00-7992-4d3b-951a-1f002f8cf02a}</Project>
+      <Name>Avantik.Web.Service.Model.Factory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extension\OrderBooing\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

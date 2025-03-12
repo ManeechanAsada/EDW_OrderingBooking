@@ -1,0 +1,243 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.COMHelper", "Avantik.Web.Service.COMHelper\Avantik.Web.Service.COMHelper\Avantik.Web.Service.COMHelper.csproj", "{E84D5CB3-D163-45E4-BA6D-25F58FA312CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B27292AA-E19D-484D-A955-F8071EAB0BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{57BEF474-AA97-4BAF-B4E5-73F85EF2B499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{A8C7DA5E-C12B-436E-A055-308FEAE70B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Entity", "Avantik.Web.Service.Entity\Avantik.Web.Service.Entity.csproj", "{45AE41B7-E3B1-484E-954E-5B97FA157833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Model", "Avantik.Web.Service.Model\Avantik.Web.Service.Model.csproj", "{DC221135-4E1E-4E55-94B6-E2A987F1B63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Repository", "Avantik.Web.Service.Repository\Avantik.Web.Service.Repository.csproj", "{11FD8372-42FC-48D0-B3BF-E1CFFEB9E16B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{BF21E198-0042-4FDA-B000-8632210D2807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service", "Avantik.Web.Service\Avantik.Web.Service.csproj", "{D8E2C2CA-BFAA-453A-B786-A04AA8D80F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Contracts", "Avantik.Web.Service.Contracts\Avantik.Web.Service.Contracts.csproj", "{C627AE1F-43B9-46F1-8B4B-A8DED37E4138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Helpers", "Avantik.Web.Service.Helpers\Avantik.Web.Service.Helpers.csproj", "{FEF72C08-FC6A-4492-ABF1-B237D0D066D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Exception", "Avantik.Web.Service.Exception\Avantik.Web.Service.Exception.csproj", "{4A0A82E7-3071-4F8D-8C7B-F9E447B5817C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Helpers.Database", "Avantik.Web.Service.Helpers.Database\Avantik.Web.Service.Helpers.Database.csproj", "{1DAE4D3D-E2A2-42D9-B800-46B9F51D325D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Infrastructrue", "Avantik.Web.Service.Infrastructrue\Avantik.Web.Service.Infrastructrue.csproj", "{8D80BCE4-5FEC-4C54-95AB-6B4E108B3814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Host", "Avantik.Web.Service.Host\Avantik.Web.Service.Host.csproj", "{85948990-A5A2-4281-ADAD-9A09E9760D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Message", "Avantik.Web.Service.Message\Avantik.Web.Service.Message.csproj", "{501243D1-DEA9-4F3A-B388-41502059DF50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Repository.Contract", "Avantik.Web.Service.Repository.Contract\Avantik.Web.Service.Repository.Contract.csproj", "{9D697DA5-FB3C-427F-9838-AD2EBE32D8A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Repository.Factory", "Avantik.Web.Service.Repository.Factory\Avantik.Web.Service.Repository.Factory.csproj", "{2785A89C-9264-4326-BE90-166E7A002C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Model.COM", "Avantik.Web.Service.Model.COM\Avantik.Web.Service.Model.COM.csproj", "{55A758CA-F65F-47FD-9DCA-2B21F79A7927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Model.Contract", "Avantik.Web.Service.Model.Contract\Avantik.Web.Service.Model.Contract.csproj", "{1A5E11ED-39BD-42F3-ABF0-FDEED24E4D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Model.Factory", "Avantik.Web.Service.Model.Factory\Avantik.Web.Service.Model.Factory.csproj", "{FFD0BF00-7992-4D3B-951A-1F002F8CF02A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BF0804E6-2161-41F6-8A33-64853C2BB96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Proxy", "Avantik.Web.Service.Proxy\Avantik.Web.Service.Proxy.csproj", "{F75DEA07-37E9-4FDF-BC2D-B041DD6C1DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avantik.Web.Service.Client", "Avantik.Web.Service.Client\Avantik.Web.Service.Client.csproj", "{E72A1272-4114-433E-AF7A-93BB8FEC74A3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 20
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://srvprodtfs01:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Avantik.Web.Service.COMHelper\\Avantik.Web.Service.COMHelper\\Avantik.Web.Service.COMHelper.csproj
+		SccProjectTopLevelParentUniqueName1 = Avantik.Web.Service.sln
+		SccProjectName1 = Avantik.Web.Service.COMHelper/Avantik.Web.Service.COMHelper
+		SccLocalPath1 = Avantik.Web.Service.COMHelper\\Avantik.Web.Service.COMHelper
+		SccProjectUniqueName2 = Avantik.Web.Service.Entity\\Avantik.Web.Service.Entity.csproj
+		SccProjectTopLevelParentUniqueName2 = Avantik.Web.Service.sln
+		SccProjectName2 = Avantik.Web.Service.Entity
+		SccLocalPath2 = Avantik.Web.Service.Entity
+		SccProjectUniqueName3 = Avantik.Web.Service.Model\\Avantik.Web.Service.Model.csproj
+		SccProjectTopLevelParentUniqueName3 = Avantik.Web.Service.sln
+		SccProjectName3 = Avantik.Web.Service.Model
+		SccLocalPath3 = Avantik.Web.Service.Model
+		SccProjectUniqueName4 = Avantik.Web.Service.Repository\\Avantik.Web.Service.Repository.csproj
+		SccProjectTopLevelParentUniqueName4 = Avantik.Web.Service.sln
+		SccProjectName4 = Avantik.Web.Service.Repository
+		SccLocalPath4 = Avantik.Web.Service.Repository
+		SccProjectUniqueName5 = Avantik.Web.Service\\Avantik.Web.Service.csproj
+		SccProjectTopLevelParentUniqueName5 = Avantik.Web.Service.sln
+		SccProjectName5 = Avantik.Web.Service
+		SccLocalPath5 = Avantik.Web.Service
+		SccProjectUniqueName6 = Avantik.Web.Service.Contracts\\Avantik.Web.Service.Contracts.csproj
+		SccProjectTopLevelParentUniqueName6 = Avantik.Web.Service.sln
+		SccProjectName6 = Avantik.Web.Service.Contracts
+		SccLocalPath6 = Avantik.Web.Service.Contracts
+		SccProjectUniqueName7 = Avantik.Web.Service.Helpers\\Avantik.Web.Service.Helpers.csproj
+		SccProjectTopLevelParentUniqueName7 = Avantik.Web.Service.sln
+		SccProjectName7 = Avantik.Web.Service.Helpers
+		SccLocalPath7 = Avantik.Web.Service.Helpers
+		SccProjectUniqueName8 = Avantik.Web.Service.Exception\\Avantik.Web.Service.Exception.csproj
+		SccProjectTopLevelParentUniqueName8 = Avantik.Web.Service.sln
+		SccProjectName8 = Avantik.Web.Service.Exception
+		SccLocalPath8 = Avantik.Web.Service.Exception
+		SccProjectUniqueName9 = Avantik.Web.Service.Helpers.Database\\Avantik.Web.Service.Helpers.Database.csproj
+		SccProjectTopLevelParentUniqueName9 = Avantik.Web.Service.sln
+		SccProjectName9 = Avantik.Web.Service.Helpers.Database
+		SccLocalPath9 = Avantik.Web.Service.Helpers.Database
+		SccProjectUniqueName10 = Avantik.Web.Service.Infrastructrue\\Avantik.Web.Service.Infrastructrue.csproj
+		SccProjectTopLevelParentUniqueName10 = Avantik.Web.Service.sln
+		SccProjectName10 = Avantik.Web.Service.Infrastructrue
+		SccLocalPath10 = Avantik.Web.Service.Infrastructrue
+		SccProjectUniqueName11 = Avantik.Web.Service.Host\\Avantik.Web.Service.Host.csproj
+		SccProjectTopLevelParentUniqueName11 = Avantik.Web.Service.sln
+		SccProjectName11 = Avantik.Web.Service.Host
+		SccLocalPath11 = Avantik.Web.Service.Host
+		SccProjectUniqueName12 = Avantik.Web.Service.Message\\Avantik.Web.Service.Message.csproj
+		SccProjectTopLevelParentUniqueName12 = Avantik.Web.Service.sln
+		SccProjectName12 = Avantik.Web.Service.Message
+		SccLocalPath12 = Avantik.Web.Service.Message
+		SccProjectUniqueName13 = Avantik.Web.Service.Repository.Contract\\Avantik.Web.Service.Repository.Contract.csproj
+		SccProjectTopLevelParentUniqueName13 = Avantik.Web.Service.sln
+		SccProjectName13 = Avantik.Web.Service.Repository.Contract
+		SccLocalPath13 = Avantik.Web.Service.Repository.Contract
+		SccProjectUniqueName14 = Avantik.Web.Service.Repository.Factory\\Avantik.Web.Service.Repository.Factory.csproj
+		SccProjectTopLevelParentUniqueName14 = Avantik.Web.Service.sln
+		SccProjectName14 = Avantik.Web.Service.Repository.Factory
+		SccLocalPath14 = Avantik.Web.Service.Repository.Factory
+		SccProjectUniqueName15 = Avantik.Web.Service.Model.COM\\Avantik.Web.Service.Model.COM.csproj
+		SccProjectTopLevelParentUniqueName15 = Avantik.Web.Service.sln
+		SccProjectName15 = Avantik.Web.Service.Model.COM
+		SccLocalPath15 = Avantik.Web.Service.Model.COM
+		SccProjectUniqueName16 = Avantik.Web.Service.Model.Contract\\Avantik.Web.Service.Model.Contract.csproj
+		SccProjectTopLevelParentUniqueName16 = Avantik.Web.Service.sln
+		SccProjectName16 = Avantik.Web.Service.Model.Contract
+		SccLocalPath16 = Avantik.Web.Service.Model.Contract
+		SccProjectUniqueName17 = Avantik.Web.Service.Model.Factory\\Avantik.Web.Service.Model.Factory.csproj
+		SccProjectTopLevelParentUniqueName17 = Avantik.Web.Service.sln
+		SccProjectName17 = Avantik.Web.Service.Model.Factory
+		SccLocalPath17 = Avantik.Web.Service.Model.Factory
+		SccProjectUniqueName18 = Avantik.Web.Service.Proxy\\Avantik.Web.Service.Proxy.csproj
+		SccProjectTopLevelParentUniqueName18 = Avantik.Web.Service.sln
+		SccProjectName18 = Avantik.Web.Service.Proxy
+		SccLocalPath18 = Avantik.Web.Service.Proxy
+		SccProjectUniqueName19 = Avantik.Web.Service.Client\\Avantik.Web.Service.Client.csproj
+		SccProjectTopLevelParentUniqueName19 = Avantik.Web.Service.sln
+		SccProjectName19 = Avantik.Web.Service.Client
+		SccLocalPath19 = Avantik.Web.Service.Client
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E84D5CB3-D163-45E4-BA6D-25F58FA312CC}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{E84D5CB3-D163-45E4-BA6D-25F58FA312CC}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{E84D5CB3-D163-45E4-BA6D-25F58FA312CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84D5CB3-D163-45E4-BA6D-25F58FA312CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AE41B7-E3B1-484E-954E-5B97FA157833}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{45AE41B7-E3B1-484E-954E-5B97FA157833}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{45AE41B7-E3B1-484E-954E-5B97FA157833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AE41B7-E3B1-484E-954E-5B97FA157833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC221135-4E1E-4E55-94B6-E2A987F1B63D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{DC221135-4E1E-4E55-94B6-E2A987F1B63D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{DC221135-4E1E-4E55-94B6-E2A987F1B63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC221135-4E1E-4E55-94B6-E2A987F1B63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FD8372-42FC-48D0-B3BF-E1CFFEB9E16B}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{11FD8372-42FC-48D0-B3BF-E1CFFEB9E16B}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{11FD8372-42FC-48D0-B3BF-E1CFFEB9E16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FD8372-42FC-48D0-B3BF-E1CFFEB9E16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E2C2CA-BFAA-453A-B786-A04AA8D80F90}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E2C2CA-BFAA-453A-B786-A04AA8D80F90}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{D8E2C2CA-BFAA-453A-B786-A04AA8D80F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E2C2CA-BFAA-453A-B786-A04AA8D80F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C627AE1F-43B9-46F1-8B4B-A8DED37E4138}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C627AE1F-43B9-46F1-8B4B-A8DED37E4138}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{C627AE1F-43B9-46F1-8B4B-A8DED37E4138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C627AE1F-43B9-46F1-8B4B-A8DED37E4138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF72C08-FC6A-4492-ABF1-B237D0D066D9}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF72C08-FC6A-4492-ABF1-B237D0D066D9}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FEF72C08-FC6A-4492-ABF1-B237D0D066D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF72C08-FC6A-4492-ABF1-B237D0D066D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0A82E7-3071-4F8D-8C7B-F9E447B5817C}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0A82E7-3071-4F8D-8C7B-F9E447B5817C}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{4A0A82E7-3071-4F8D-8C7B-F9E447B5817C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0A82E7-3071-4F8D-8C7B-F9E447B5817C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAE4D3D-E2A2-42D9-B800-46B9F51D325D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAE4D3D-E2A2-42D9-B800-46B9F51D325D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{1DAE4D3D-E2A2-42D9-B800-46B9F51D325D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAE4D3D-E2A2-42D9-B800-46B9F51D325D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D80BCE4-5FEC-4C54-95AB-6B4E108B3814}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8D80BCE4-5FEC-4C54-95AB-6B4E108B3814}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{8D80BCE4-5FEC-4C54-95AB-6B4E108B3814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D80BCE4-5FEC-4C54-95AB-6B4E108B3814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85948990-A5A2-4281-ADAD-9A09E9760D83}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{85948990-A5A2-4281-ADAD-9A09E9760D83}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{85948990-A5A2-4281-ADAD-9A09E9760D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85948990-A5A2-4281-ADAD-9A09E9760D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501243D1-DEA9-4F3A-B388-41502059DF50}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{501243D1-DEA9-4F3A-B388-41502059DF50}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{501243D1-DEA9-4F3A-B388-41502059DF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501243D1-DEA9-4F3A-B388-41502059DF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D697DA5-FB3C-427F-9838-AD2EBE32D8A3}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{9D697DA5-FB3C-427F-9838-AD2EBE32D8A3}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{9D697DA5-FB3C-427F-9838-AD2EBE32D8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D697DA5-FB3C-427F-9838-AD2EBE32D8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2785A89C-9264-4326-BE90-166E7A002C39}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{2785A89C-9264-4326-BE90-166E7A002C39}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{2785A89C-9264-4326-BE90-166E7A002C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2785A89C-9264-4326-BE90-166E7A002C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A758CA-F65F-47FD-9DCA-2B21F79A7927}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{55A758CA-F65F-47FD-9DCA-2B21F79A7927}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{55A758CA-F65F-47FD-9DCA-2B21F79A7927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A758CA-F65F-47FD-9DCA-2B21F79A7927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5E11ED-39BD-42F3-ABF0-FDEED24E4D28}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5E11ED-39BD-42F3-ABF0-FDEED24E4D28}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{1A5E11ED-39BD-42F3-ABF0-FDEED24E4D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5E11ED-39BD-42F3-ABF0-FDEED24E4D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD0BF00-7992-4D3B-951A-1F002F8CF02A}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD0BF00-7992-4D3B-951A-1F002F8CF02A}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FFD0BF00-7992-4D3B-951A-1F002F8CF02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD0BF00-7992-4D3B-951A-1F002F8CF02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75DEA07-37E9-4FDF-BC2D-B041DD6C1DED}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F75DEA07-37E9-4FDF-BC2D-B041DD6C1DED}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F75DEA07-37E9-4FDF-BC2D-B041DD6C1DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75DEA07-37E9-4FDF-BC2D-B041DD6C1DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72A1272-4114-433E-AF7A-93BB8FEC74A3}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{E72A1272-4114-433E-AF7A-93BB8FEC74A3}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{E72A1272-4114-433E-AF7A-93BB8FEC74A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72A1272-4114-433E-AF7A-93BB8FEC74A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E84D5CB3-D163-45E4-BA6D-25F58FA312CC} = {B27292AA-E19D-484D-A955-F8071EAB0BEF}
+		{45AE41B7-E3B1-484E-954E-5B97FA157833} = {57BEF474-AA97-4BAF-B4E5-73F85EF2B499}
+		{DC221135-4E1E-4E55-94B6-E2A987F1B63D} = {57BEF474-AA97-4BAF-B4E5-73F85EF2B499}
+		{11FD8372-42FC-48D0-B3BF-E1CFFEB9E16B} = {A8C7DA5E-C12B-436E-A055-308FEAE70B09}
+		{D8E2C2CA-BFAA-453A-B786-A04AA8D80F90} = {BF21E198-0042-4FDA-B000-8632210D2807}
+		{C627AE1F-43B9-46F1-8B4B-A8DED37E4138} = {BF21E198-0042-4FDA-B000-8632210D2807}
+		{FEF72C08-FC6A-4492-ABF1-B237D0D066D9} = {B27292AA-E19D-484D-A955-F8071EAB0BEF}
+		{4A0A82E7-3071-4F8D-8C7B-F9E447B5817C} = {B27292AA-E19D-484D-A955-F8071EAB0BEF}
+		{1DAE4D3D-E2A2-42D9-B800-46B9F51D325D} = {A8C7DA5E-C12B-436E-A055-308FEAE70B09}
+		{8D80BCE4-5FEC-4C54-95AB-6B4E108B3814} = {B27292AA-E19D-484D-A955-F8071EAB0BEF}
+		{85948990-A5A2-4281-ADAD-9A09E9760D83} = {BF21E198-0042-4FDA-B000-8632210D2807}
+		{501243D1-DEA9-4F3A-B388-41502059DF50} = {BF21E198-0042-4FDA-B000-8632210D2807}
+		{9D697DA5-FB3C-427F-9838-AD2EBE32D8A3} = {A8C7DA5E-C12B-436E-A055-308FEAE70B09}
+		{2785A89C-9264-4326-BE90-166E7A002C39} = {A8C7DA5E-C12B-436E-A055-308FEAE70B09}
+		{55A758CA-F65F-47FD-9DCA-2B21F79A7927} = {57BEF474-AA97-4BAF-B4E5-73F85EF2B499}
+		{1A5E11ED-39BD-42F3-ABF0-FDEED24E4D28} = {57BEF474-AA97-4BAF-B4E5-73F85EF2B499}
+		{FFD0BF00-7992-4D3B-951A-1F002F8CF02A} = {57BEF474-AA97-4BAF-B4E5-73F85EF2B499}
+		{F75DEA07-37E9-4FDF-BC2D-B041DD6C1DED} = {BF0804E6-2161-41F6-8A33-64853C2BB96F}
+		{E72A1272-4114-433E-AF7A-93BB8FEC74A3} = {BF0804E6-2161-41F6-8A33-64853C2BB96F}
+	EndGlobalSection
+EndGlobal

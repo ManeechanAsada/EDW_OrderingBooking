@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+using System.ServiceModel;
+using System.Runtime.Serialization;
+using Avantik.Web.Service.Message;
+using Avantik.Web.Service.Message.ManageBooking;
+using Avantik.Web.Service.Message.Booking;
+using Avantik.Web.Service.Message.SeatMap;
+using Avantik.Web.Service.Message.OrderBooking;
+
+namespace Avantik.Web.Service.Contracts
+{
+    [ServiceContract(Namespace = "Avantik.Web.Service/")]
+    public interface IOrderingBookingService
+    {
+
+        [OperationContract()]
+        InitializeResponse ServiceInitialize(InitializeRequest request);
+
+        //[OperationContract()]
+        //AvailabilityResponse GetAvailability(AvailabilityRequest request);
+
+        //[OperationContract()]
+        //BookingCancelResponse CancelBooking(BookingCancelRequest request);
+
+        [OperationContract()]
+        SegmentCancelResponse CancelSegment(SegmentCancelRequest request);
+
+        [OperationContract()]
+        BookingReadResponse ReadBooking(BookingReadRequest request);
+
+        //[OperationContract()]
+        //ModifyBookingResponse ModifyBooking(ModifyBookingRequest request);
+
+        [OperationContract()]
+        BookingOrderResponse ModifyBooking(OrderBookingRequest request);
+
+
+        [OperationContract()]
+        GetSeatMapResponse GetSeatMap(GetSeatMapRequest request);
+
+      //  [OperationContract()]
+    //    CalculateChangeFlightFeesResponse GetChangeFlightFees(CalculateChangeFlightFeesRequest request);
+
+        //[OperationContract()]
+        //CalculateSeatFeesResponse SelectSeat(CalculateSeatFeesRequest request);
+
+        [OperationContract()]
+        GetSpecialServicesResponse GetSpecialServices(GetSpecialServicesRequest request);
+
+        //[OperationContract()]
+        //CalculateSpecialServiceFeesResponse AddSpecialServices(CalculateSpecialServiceFeesRequest request);
+
+        //[OperationContract()]
+        //BaggageFeesResponse GetBaggageFee(BaggageFeesRequest request);
+
+        //[OperationContract()]
+        //PassengerInfoResponse UpdatePassengerInfo(PassengerInfoRequest request);
+
+        //[OperationContract()]
+        //NameChangeResponse GetNameChangeFee(NameChangeRequest request);
+
+        //[OperationContract()]
+        //UpdatedTicketResponse UpdateTicketBaggageAllowance(UpdatedTicketRequest request);
+
+        [OperationContract()]
+        GetFeeResponse GetFeeDefinition(GetFeeDefinitionRequest request);
+
+        // [OperationContract()]
+        //  PaymentFeeResponse GetPaymentFee(PaymentFeeRequest request);
+
+        //[OperationContract()]
+        //UpdatedTicketResponse UpdateTicketBaggageAllowance(UpdatedTicketRequest request);
+
+        //[OperationContract()]
+        //AgencyResponse GetAgencyProfile(AgencyRequest request);
+
+        //[OperationContract()]
+        //ContactDetailResponse UpdateContactDetail(ContactDetailRequest request);
+
+
+    }
+}

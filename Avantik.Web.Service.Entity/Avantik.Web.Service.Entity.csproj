@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45AE41B7-E3B1-484E-954E-5B97FA157833}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Avantik.Web.Service.Entity</RootNamespace>
+    <AssemblyName>Avantik.Web.Service.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agency\clsAgency.cs" />
+    <Compile Include="Agency\clsUser.cs" />
+    <Compile Include="Booking\clsBookingHeader.cs" />
+    <Compile Include="Booking\clsAPIPassengerMapping.cs" />
+    <Compile Include="Booking\clsBooking.cs" />
+    <Compile Include="Booking\clsBookingClass.cs" />
+    <Compile Include="Booking\clsFee.cs" />
+    <Compile Include="Booking\clsFlight.cs" />
+    <Compile Include="Booking\clsFlightSegment.cs" />
+    <Compile Include="Booking\clsNameChange.cs" />
+    <Compile Include="Booking\clsPassenger.cs" />
+    <Compile Include="Booking\clsPayment.cs" />
+    <Compile Include="Booking\clsQuote.cs" />
+    <Compile Include="Booking\clsRemark.cs" />
+    <Compile Include="Booking\clsService.cs" />
+    <Compile Include="Booking\clsTax.cs" />
+    <Compile Include="Client\clsClient.cs" />
+    <Compile Include="Client\clsClientProfile.cs" />
+    <Compile Include="Client\clsPassengerProfile.cs" />
+    <Compile Include="clsAuthentication.cs" />
+    <Compile Include="clsFlightBase.cs" />
+    <Compile Include="clsVoucher.cs" />
+    <Compile Include="Country\clsCountry.cs" />
+    <Compile Include="Currency\clsCurrency.cs" />
+    <Compile Include="Document\clsDocument.cs" />
+    <Compile Include="Fee\clsSeatAssign.cs" />
+    <Compile Include="Flight\clsAvailabilities.cs" />
+    <Compile Include="Flight\clsSeatMap.cs" />
+    <Compile Include="Language\clsLanguage.cs" />
+    <Compile Include="clsPaymentAllocation.cs" />
+    <Compile Include="SpecialService\clsSpecialService.cs" />
+    <Compile Include="Title\clsTitle.cs" />
+    <Compile Include="clsVoucherTemplate.cs" />
+    <Compile Include="Fares\clsFareLogic.cs" />
+    <Compile Include="Fee\clsFee.cs" />
+    <Compile Include="Fee\clsSegmentService.cs" />
+    <Compile Include="Fee\clsServiceFee.cs" />
+    <Compile Include="Flight\clsAvailability.cs" />
+    <Compile Include="Flight\clsAvailabilityExtension.cs" />
+    <Compile Include="Flight\clsAvailabilityParing.cs" />
+    <Compile Include="Flight\clsAvailabilityQuoteTax.cs" />
+    <Compile Include="Flight\clsAvailabilityRoute.cs" />
+    <Compile Include="Flight\clsFlightBase.cs" />
+    <Compile Include="FormOfPayment\clsFormOfPayment.cs" />
+    <Compile Include="FormOfPayment\clsFormOfPaymentSubType.cs" />
+    <Compile Include="Route\clsRoute.cs" />
+    <Compile Include="Route\clsRouteBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tax\clsTaxBase.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
