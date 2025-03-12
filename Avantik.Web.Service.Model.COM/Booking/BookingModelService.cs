@@ -3859,9 +3859,9 @@ namespace Avantik.Web.Service.Model.COM
                                                 listOfRqst = CreateSeatRQSTNullPassenger_OUT_Change(RqRQSTOneByOne, 1, ref rsService);
                                                 listOfRqst.ToRecordset(ref rsService);
 
-                                                entity.Booking b2 = new Booking();
-                                                List<entity.PassengerService> servicesTmp2 = new List<PassengerService>();
-                                                b2.Services = servicesTmp2.FillBooking(rsService);
+                                                //entity.Booking b2 = new Booking();
+                                                //List<entity.PassengerService> servicesTmp2 = new List<PassengerService>();
+                                                //b2.Services = servicesTmp2.FillBooking(rsService);
 
                                             }
 
